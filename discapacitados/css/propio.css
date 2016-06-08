@@ -1,0 +1,157 @@
+.borderfoto  {
+ 
+  border: black;
+  border-top-style: dashed;
+  border-right-style: double;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+.top{
+
+
+	padding-top: 1%;
+}
+
+.tab{
+
+	background-color: red;
+}
+
+.tabplanilla{
+
+	background-color: #DC5151;
+	border: red 10px solid; 
+  border-radius: 20px; 
+}
+
+.imag{
+
+	width: 40px;
+	height: 41px;
+}
+
+.fondo{
+
+	background-image: url(../images/formato.png);
+	width: 1200px;
+	height: 1500px;
+	background-position: center;
+	background-size:    110% 130%;
+                        
+   background-repeat: no-repeat;
+  
+
+	
+
+}
+
+.parrafo{
+
+	text-align: center;
+}
+
+.escudo{
+
+width: 120px;
+height: 115px;
+padding-left: 35em;
+
+}
+
+.cuadro1{
+
+	background-color: blue;
+
+}
+
+.contenedor{
+  position:relative;
+   margin-left:auto;
+    margin-right: auto;
+
+   }
+
+
+.contenedor:before,
+.contenedor:after{
+  display: table;
+  content: " ";
+}
+.contenedor:after{
+  clear: both;
+}
+
+.opciones{
+  position: relative;
+  float: left;
+  height: 150px;
+  width: 20%
+}
+
+
+
+
+
+ 
+/* Estilo por defecto */
+ 
+input:valid[type=text] {
+ 
+background-image:url(../images/valido.gif);
+background-position:top left;
+background-repeat:no-repeat;
+background-position: right;
+  
+}
+
+#navegar{
+
+	padding-right: 15em;
+}
+
+
+
+.menuinicio{
+
+	height: 200px;
+	width: 250px;
+	background-size: 200px 250px;
+	background-color: red; 
+	margin: 0 auto;
+
+}
+
+.menuinicio2{
+
+	height: 200px;
+	width: 250px;
+	background-size: 200px 250px;
+	background-color: red; 
+	margin: 0 auto;
+	float: left;
+}
+
+.tabmov {
+
+
+	padding-top: 500em;
+}
+
+.imginicio{
+
+	background: url(../images/discapacitado.jpg);
+	background-size: 350px 350px;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 350px;
+	border: red 10px solid; 
+  border-radius: 20px; 
+}
+
+#qr{
+
+	height: 100px;
+	width: 100px;
+	float: right;
+}
